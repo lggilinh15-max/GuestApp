@@ -138,7 +138,7 @@ export default function AdminDashboard() {
   // Styles
   const s = {
     page: { minHeight: '100vh', background: '#F0EDE8', fontFamily: 'DM Sans, sans-serif' } as React.CSSProperties,
-    sidebar: { width: '220px', background: '#161412', minHeight: '100vh', padding: '24px 0', position: 'fixed', top: 0, left: 0, display: 'flex', flexDirection: 'column' as const },
+    sidebar: { width: '220px', background: '#161412', minHeight: '100vh', padding: '24px 0', position: 'fixed' as const, top: 0, left: 0, display: 'flex', flexDirection: 'column' as const },
     content: { marginLeft: '220px', padding: '28px 32px', maxWidth: '900px' },
     card: { background: '#fff', borderRadius: '14px', padding: '20px', marginBottom: '16px', border: '0.5px solid #E2DBD0' } as React.CSSProperties,
     input: { width: '100%', background: '#F8F5F0', border: '0.5px solid #E2DBD0', borderRadius: '8px', padding: '8px 11px', fontSize: '13px', fontFamily: 'DM Sans, sans-serif', color: '#161412', outline: 'none', boxSizing: 'border-box' as const },
